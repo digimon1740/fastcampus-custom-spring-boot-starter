@@ -1,9 +1,43 @@
-# Project exclude paths
-/.gradle/
-/handgame/.gradle/
-/handgame/build/
-/handgame-spring-boot-app/.gradle/
-/handgame-spring-boot-app/build/
-/handgame-spring-boot-autoconfigure/build/
-/handgame-spring-boot-starter/.gradle/
-/handgame-spring-boot-starter/build/
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS
+.DS_Store
+
+### properties
+application-beta.yml
+application-mirror.yml
+application-qa.yml
+application-prod.yml
