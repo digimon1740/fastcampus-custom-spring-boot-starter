@@ -1,0 +1,9 @@
+# Project exclude paths
+/.gradle/
+/handgame/.gradle/
+/handgame/build/
+/handgame-spring-boot-app/.gradle/
+/handgame-spring-boot-app/build/
+/handgame-spring-boot-autoconfigure/build/
+/handgame-spring-boot-starter/.gradle/
+/handgame-spring-boot-starter/build/
